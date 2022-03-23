@@ -7,6 +7,18 @@ body{
     src: url(BebasNeue-Regular.ttf);
 }
 
+#divThemes{
+    width: 10%;
+    max-width: 75px;
+    height: 10%;
+    max-height: 75px;
+    font-size: 75px;
+    margin: 10px 10px 0px 10px;
+
+    cursor: pointer;
+    color: white;
+}
+
 .divBackground{
     width: 100%;
     height: 100%;
@@ -16,15 +28,25 @@ body{
     align-items: center;
 }
 .divLogo, #logoIndex{
-    width: 100%;
+    width: fit-content;
     height: 20%;
     text-align: center;
+    max-height: 300px;
 }
 .divLogo img, #logoIndex img{
     width: auto;
     height: auto;
     max-height: 90%;
     max-width: 90%;
+}
+.aText{
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+    font-family: fontCards;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .divButtonsArea{
@@ -80,4 +102,3 @@ body{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
-

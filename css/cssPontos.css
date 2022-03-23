@@ -1,0 +1,69 @@
+.divBackground{
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex;
+}
+
+.divButtonsAreaPontos{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.divButtonsPontos{
+    height: 40%;
+    width: 40%;
+    max-width: 450px;
+    background-image: linear-gradient(45deg,#2663E5 50%, #2B26C1 50%); /*Modo escuro: 2663E5 2B26C1 | Modo Claro: 24e463 2cc424*/
+    border-radius: 10px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    cursor: pointer;
+}
+.divButtonsPontos img{
+    width: 98%;
+    height: 74%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.divButtonsPontos:hover img{
+    opacity: 100%;
+}
+
+#divOpera img, #divCentro img{
+    object-position: 50% 0;
+}
+#divPasseio img{
+    object-position: 50% 100%;
+}
+
+.divTextPontos{
+    font-size: 50px;
+    width: 98%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: fontCards;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.aText{
+    margin-top: 20px;
+}
