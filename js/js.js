@@ -15,12 +15,36 @@ $(document).ready(function () {
         window.location.href = 'pages/faq.html';
     })
     // > VOLTAR A PAGINA INICIAL
+    $('#logoPontos').click(function(){
+        window.location.href="../../index.html";
+    })
     $('.divLogo').click(function () {
         window.location.href = '../index.html';
     })
     $('#logoIndex').click(function () {
         window.location.href = 'index.html';
     })
+
+    // > BOTÕES PAGES
+    $("#divPagePontos").click(function () {
+        window.location.href = 'pontosturisticos.html';
+    })
+    $("#divPageRestaurantes").click(function () {
+        window.location.href = 'restaurantes.html';
+    })
+    $("#divPageEmergencia").click(function () {
+        window.location.href = 'emergencias.html';
+    })
+    $("#divPageFAQ").click(function () {
+        window.location.href = 'faq.html';
+    })
+
+
+    $("#divMON").click(function(){
+        window.location.href = "pagesPontos/mon.html";
+    })
+
+
 
 
     // > MODO CLARO MODO ESCURO
